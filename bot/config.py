@@ -12,8 +12,8 @@ class Config(object):
     AUTH_USERS = set(
         int(x) for x in get_config(
             "1285768957",
-            should_prompt=True
-        ).split(2097152000)
+            should_prompt=False
+        ).split()
     )
     #array , simplest method was AUTH_USERS = [1285768957] ; AUTH_USERS.append(your telegram id) 
     # array to store the channel ID who are authorized to use the bot
