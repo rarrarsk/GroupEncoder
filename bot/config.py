@@ -15,7 +15,7 @@ class Config(object):
             should_prompt=True
         ).split()
     )
-    array , simplest method was AUTH_USERS = [1285768957] ; AUTH_USERS.append(1285768957) 
+    array , simplest method was AUTH_USERS = [1285768957] ; AUTH_USERS.append(your telegram id) 
     # array to store the channel ID who are authorized to use the bot
     # dont u fucking remove this id 😤
     TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "6615873504:AAFG7egPTZmPnz1JZq68403_021QrdIuX6I")
