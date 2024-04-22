@@ -7,7 +7,7 @@ class Config(object):
     APP_ID = int(get_config("APP_ID", 8233223))
     API_HASH = get_config("API_HASH", "dacf95e444cf26fb3d7e9b997e3ee456")
     LOG_CHANNEL = get_config("LOG_CHANNEL", -1001551582664)
-    UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", Teamleech_updates) # Without `@` LOL
+    UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
      # Get these values from my.telegram.org
     AUTH_USERS = set(
         int(x) for x in get_config(
